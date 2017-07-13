@@ -1,0 +1,21 @@
+body {
+    height: 100%;
+    background-color: #ffffff;
+    background-image: url("images/overlay.png"), -moz-linear-gradient(-225deg, #A8BFFF 0%, #884D80 100%);
+    background-image: url("images/overlay.png"), -webkit-linear-gradient(-225deg, #A8BFFF 0%, #884D80 100%);
+    background-image: url("images/overlay.png"), -ms-linear-gradient(-225deg, #A8BFFF 0%, #884D80 100%);
+    background-image: url("images/overlay.png"), linear-gradient(-225deg, #A8BFFF 0%, #884D80 100%);
+}
+
+:root {
+  --highlight: #53c2d8;
+}
+
+::selection {
+  background: var(--highlight);
+  color: #fff;
+}
+::-moz-selection {
+  background: var(--highlight);
+  color: #fff;
+}
