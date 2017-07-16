@@ -19,3 +19,7 @@ body {
   background: var(--highlight);
   color: #fff;
 }
+
+li > a {
+  color: #0096b3;
+}
